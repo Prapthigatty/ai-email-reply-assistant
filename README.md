@@ -34,14 +34,17 @@ Professional reply generation
 
 🛠️ Technologies Used
 
-Category	Tools
-Programming Language	Python
-NLP	NLTK, TF-IDF
-Machine Learning	Scikit-learn (Logistic Regression)
-Web Framework	Streamlit
-Dataset	Custom + Enron Email Dataset (labeled)
-Deployment	Streamlit Community Cloud
+| Category             | Tools                                  |
+| -------------------- | -------------------------------------- |
+| Programming Language | Python                                 |
+| NLP                  | NLTK, TF-IDF                           |
+| Machine Learning     | Scikit-learn (Logistic Regression)     |
+| Web Framework        | Streamlit                              |
+| Dataset              | Custom + Enron Email Dataset (labeled) |
+| Deployment           | Streamlit Community Cloud              |
+
 📂 Project Structure
+
 ai-email-reply-assistant/
 │
 ├── app.py
@@ -55,6 +58,7 @@ ai-email-reply-assistant/
 └── README.md
 
 📊 Dataset Description
+
 A manually curated dataset containing real-world email examples
 Emails categorized into:
 request
@@ -64,6 +68,7 @@ inquiry
 Augmented using selected samples from the Enron Email Dataset
 
 🧪 Model Training & Evaluation
+
 Text vectorization using TF-IDF (unigrams + bigrams)
 Classification using Logistic Regression
 Stratified train-test split
@@ -75,51 +80,71 @@ F1-score
 K-Fold Cross Validation for reliable evaluation on small datasets
 
 ▶️ How to Run Locally
+
 1️⃣ Clone the repository
+
 git clone https://github.com/Prapthigatty/ai-email-reply-assistant.git
+
 cd ai-email-reply-assistant
 
 2️⃣ Install dependencies
+
 pip install -r requirements.txt
 
 3️⃣ Train the model
+
 python train_model.py
 
 4️⃣ Run the application
+
 streamlit run app.py
 
 Open in browser:
+
 http://localhost:8501
 
 🧠 Sample Test Emails
+
 Apology
+
 Sorry for the delay in responding. Please find the document attached.
 
 Request
+
 Could you please send me the assignment details?
 
 Follow-up
+
 Just following up on my previous email regarding the payment.
 
 Inquiry
+
 I would like to know more about the internship opportunity.
 
 📌 Limitations
 
 Model accuracy depends on dataset size
+
 New email patterns may reduce confidence
+
 Designed as a learning and academic project
 
 🔮 Future Enhancements
 
 Sentiment analysis
+
 Multiple reply styles (formal / short / friendly)
+
 Larger labeled datasets
+
 Transformer-based NLP models
+
 Email API integration (Gmail)
 
 🎓 Academic Relevance
+
 Suitable for MCA Mini Project / Main Project
+
 Demonstrates:
 NLP concepts
 Machine learning workflow
@@ -130,7 +155,8 @@ Responsible AI design
 
 👩‍💻 Author
 
-Prapthi
+Prapthi A
 MCA Student
 Interests: Machine Learning, Web Development, NLP
+
 
