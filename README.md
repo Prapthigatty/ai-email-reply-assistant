@@ -1,10 +1,13 @@
 📧 AI-Based Email Reply Assistant
+
 An intelligent web application that analyzes email content, predicts its intent using Natural Language Processing (NLP), and generates professional reply suggestions. The system combines Machine Learning, rule-based logic, and confidence handling to deliver reliable responses for real-world emails.
 
 🚀 Live Demo
+
 🔗 https://ai-email-reply-assistant-na5wawqxgeer7zehwfka3m.streamlit.app/
 
 🎯 Project Objective
+
 Writing professional email replies can be time-consuming and challenging, especially in corporate environments.
 This project aims to:
 Automatically classify email intent
@@ -12,6 +15,7 @@ Suggest professional, context-aware replies
 Improve productivity and communication quality
 
 Key Features
+
 📌 Email intent classification (request, apology, follow_up, inquiry)
 📊 Confidence score for predictions
 🔁 Hybrid AI approach (ML + rule-based fallback)
@@ -20,6 +24,7 @@ Key Features
 ☁️ Deployed online for real-time usage
 
 🏗️ System Architecture
+
 User enters email text
 Text preprocessing (cleaning & stopword removal)
 Feature extraction using TF-IDF
@@ -28,6 +33,7 @@ Confidence-based decision handling
 Professional reply generation
 
 🛠️ Technologies Used
+
 Category	Tools
 Programming Language	Python
 NLP	NLTK, TF-IDF
@@ -127,3 +133,4 @@ Responsible AI design
 Prapthi
 MCA Student
 Interests: Machine Learning, Web Development, NLP
+
