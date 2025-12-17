@@ -1,0 +1,20 @@
+email,intent
+Please send me the project report by tomorrow,request
+Can you share the meeting details?,request
+Kindly provide the assignment guidelines,request
+Please let me know the deadline for submission,request
+
+I am sorry for the delay in response,apology
+Apologies for the inconvenience caused,apology
+Sorry I couldn’t attend the meeting,apology
+Please excuse the late reply,apology
+
+This is a reminder regarding the pending payment,follow_up
+Just following up on my previous email,follow_up
+Checking in to see if there is any update,follow_up
+Gentle reminder about the status,follow_up
+
+I would like to know more about the internship opportunity,inquiry
+Could you provide more details about the course?,inquiry
+I have a question regarding the exam schedule,inquiry
+Can you clarify the eligibility criteria?,inquiry
