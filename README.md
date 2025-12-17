@@ -156,7 +156,10 @@ Responsible AI design
 👩‍💻 Author
 
 Prapthi A
+
 MCA Student
-Interests: Machine Learning, Web Development, NLP
+
+
+
 
 
